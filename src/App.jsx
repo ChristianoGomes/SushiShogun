@@ -4,6 +4,7 @@ import SushiPics from './components/SushiPics'
 import Hero from './components/Hero'
 import Cards from './components/Cards'
 import Food from './components/Food'
+import Footer from './components/Footer.jsx'
 
 
 function App() {
@@ -16,7 +17,7 @@ function App() {
 <Cards />
 <Food />
 <SushiPics />
-
+<Footer />
     </>
   )
 }

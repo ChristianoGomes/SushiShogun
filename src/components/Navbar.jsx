@@ -11,7 +11,7 @@ import { FaUserFriends } from "react-icons/fa";
 
 
 const Navbar = () => {
-    const [nav, setNav] = useState(true);
+    const [nav, setNav] = useState(false);
 
 
 
