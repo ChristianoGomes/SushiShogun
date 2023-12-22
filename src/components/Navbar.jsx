@@ -57,7 +57,7 @@ const Navbar = () => {
           className="absolute right-4 top-4 cursor-pointer "
         />
         <h2 className="text-2xl p-4 ">
-          Best<span className="font-bold">Eats</span>
+          Sushi<span className="font-bold">Shogun</span>
         </h2>
 
         <nav>

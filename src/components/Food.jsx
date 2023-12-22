@@ -3,7 +3,7 @@ import React from 'react'
 const Food = () => {
   return (
     <div className="max-[1640] m-auto px-4 py-12 ">
-      <h1 className="text-gray-700 font-bold text-4xl text-center">
+      <h1 className="text-gray-700 font-bold text-4xl text-center mb-5">
         Top Rated Menu Items
       </h1>
       {/* Filter Row */}
@@ -34,7 +34,11 @@ const Food = () => {
           </p>
           {/* Filter Price */}
           <div>
+<<<<<<< HEAD
             <p className="font-bold text-gray-700">Filter Price</p>
+=======
+            <p className="text-gray-700 font-bold text-2xl text-center mt-5">Filter Price</p>
+>>>>>>> 8aeb3bd (4th commit)
             <div className="flex justify-between max-w[390] w-full">
               <button onClick={() => filterPrice('$')}  className="m-1 border-red-600 text-red-400 hover:bg-red-400 hover:text-white">
                 $
